@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- atributo -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0"> <!-- Single line responsability -->
+    <title>CAC-MOVIES</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body> <!-- Lo que ve el usuario -->    
+    <header class="header"> <!-- Etiqueta semantica (cabecera del doc) -->
+        <div class="header_logo">
+            <a href= "#" class="header_logo_link"> 
+                <i class="fa-solid fa-film"></i> 
+                CAC-Movies 
+            </a>
+        </div>
+
+        <div class="header_menu">    
+            <a href="tendencias.html"> Tendencias </a>         
+            <a href="registrarse.html"> Registrarse </a> 
+            <a href="iniciarSesion.html" id="header_menu_iniciar_sesion"> Iniciar Sesión </a>           
+        </div>
+    
+    </header>
+    
+   
+    <main>
+        <section class="main">
+            <h1 class="main_titulo texto-blanco">Películas y series ilimitadas <br> en un solo lugar </h1>
+            <h2 class="main_subtitulo  texto-blanco">Disfruta donde quieras.<br>Cancela en cualquier momento.</h2>
+            <a class= "texto-blanco main_btn_registrarse" href="registrarse.html"> Registrate </a>
+        </section>
+
+        <section class = "busqueda">
+            <h2> ¿Qué estas buscando para ver? </h2>
+            <form class="busqueda_form" id= "busqueda_form">
+                <input type = "search" placeholder="Buscar..." class="input_busqueda">
+                <button class = "boton_busqueda"> Buscar </button>        
+            </form> 
+            <hr> 
+        </section>
+
+        <section class = "flex-container">
+            <div>
+                <h4> hola </h4>
+            </div>
+
+        </section>
+
+        <!-- Contenido principal de la página -->
+        <!--Secciones de películas y series -->
+
+    </main>
+    
+    
+        <script src="https://kit.fontawesome.com/3b9cb261b9.js" crossorigin="anonymous"></script>
+
+    
+    
+    
+    <footer>
+
+        <a href="#" class="flecha_arriba">
+            <img src="/imgs/flecha-hacia-arriba.png" alt="flecha_arriba">
+        </a>
+
+
+        <p>&copy; 2024 CAC Movies</p>
+
+
+
+    </footer>
+
+    <script src="scripts.js"></script>
+
+
+</body>
+
+</html>
